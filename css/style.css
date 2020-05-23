@@ -1,0 +1,465 @@
+.body{
+    margin: 0px;
+}
+
+.line-menu{
+	background-color:#ab0f13;
+	width: 55px;
+	height: 2px;
+	display: block;
+	margin: 10px auto auto;
+	border-radius: 10px;
+}
+
+
+.line{
+    background-color:#ab0f13;
+    width: 120px;
+    height: 2px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.vl {
+    border-left: 1px solid #6c757d;
+    height: 30px;
+    margin-top: 8px;
+
+}
+
+.color_white{
+    color: white;
+}
+
+.bg-color-dark-blue{
+    background-color: #2d3e50;
+}
+
+
+.bg-color-dark-red{
+    background-color: #ab0f13;
+}
+
+.color-dark-red{
+   color: #ab0f13;
+}
+
+
+
+
+
+.pic-slide{
+    background:url(../images/BG.jpg)no-repeat;
+    /*width: 50%;*/
+    margin: 0px;
+    height: 561px;
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: left;*/
+}
+
+
+
+
+
+
+
+.font-cairo{
+
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+
+.color-dark-red{
+    color:#ab0f13;
+}
+
+
+
+
+
+
+
+.pic-slide2{
+    background:url(../images/about.png)no-repeat;
+    width: 70%;
+}
+
+
+
+
+
+.requests{
+    background:url(../images/subtle-pattern-1.jpg)no-repeat;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+}
+
+
+.btn-circle{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+
+
+
+
+
+
+.div-radius{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 100px;
+}
+
+
+
+
+
+.div-circle{
+    border-radius: 100%;
+    background-color: #f3f3f3;
+    width: 90px;
+    height: 90px;
+
+}
+
+
+
+
+
+.pic-call-us{
+    background:url(../images/call2.jpg)no-repeat;
+
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
+
+
+.pic-bg-phone{
+    background:url(../images/BG-phone.png)no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.pic-google{
+    background:url(../images/google.png)no-repeat;
+
+
+
+}
+
+
+
+.pic-ios{
+    background:url(../images/ios.png)no-repeat;
+
+
+}
+
+
+
+.pic-footer-google{
+    background:url(../images/google1.png)no-repeat;
+
+
+
+}
+
+
+
+.pic-footer-ios{
+    background:url(../images/ios1.png)no-repeat;
+
+}
+
+.about-copy{
+    background:url(../images/about1.png)no-repeat;
+    width: 100%;
+   height: 335px;
+}
+
+.p1{
+    background:url(../images/p1.jpg)no-repeat;
+    width: 100%;
+    height: 247px;
+    background-size: cover;
+
+}
+
+
+
+
+
+.p2{
+    background:url(../images/p2.jpg)no-repeat;
+    width: 100%;
+    height: 247px;
+    background-size: cover;
+
+}
+
+
+
+
+.p3{
+    background:url(../images/p3.jpg)no-repeat;
+    width: 100%;
+    height: 247px;
+    background-size: cover;
+
+}
+
+
+
+
+.bg-text{
+    background-color: #f3f3f3;
+}
+
+
+
+
+
+
+.bg-creat-account{
+    background:url(../images/subtle-pattern-1.jpg)no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.line-long{
+    background-color:#ab0f13;
+    width: 200px;
+    height: 2px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+
+
+
+.bg-contact-us{
+    background:url(../images/subtle-pattern-1.jpg)no-repeat;
+    width: 100%;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+/*=================EN==================*/
+
+
+
+.pic-slide-en{
+    background:url(../images/BG-en.jpg)no-repeat;
+    margin: 0px;
+    height: 561px;
+
+}
+
+
+
+
+
+
+
+.about-copy-en{
+    background:url(../images/about1-en.png)no-repeat;
+    width: 100%;
+    height: 335px;
+}
+
+
+
+
+
+
+
+
+.div-radius-en{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+.pic-call-us-en{
+    background:url(../images/call3.jpg)no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================*/
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card-carousel .my-card {
+    height: 18rem;
+    width: 12rem;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    /*background: #2e5266;*/
+    /*background: linear-gradient(to top, #2e5266, #6e8898);*/
+    transition: 1s;
+}
+
+.card-carousel .my-card:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    border-radius: 100%;
+    /*background-color: rgba(0,0,0,0.3);*/
+    /*bottom: -1rem;*/
+    /*-webkit-filter: blur(4px);*/
+    /*filter: blur(4px);*/
+}
+
+.card-carousel .my-card.active {
+    z-index: 3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+.card-carousel .my-card.prev, .card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity: 0.6;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+
+
+
+
+.card-carousel .my-card:nth-child(0):before {
+    content: '0';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(2):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(3):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(4):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+header2020-navbar-master {
+    position: relative;
+    /* z-index: 49; */
+    color: #fff;
+    background-color: #000;
+
+}
+
+
+
